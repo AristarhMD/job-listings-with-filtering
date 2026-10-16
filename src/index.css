@@ -13,6 +13,9 @@
 
   --shadow-card: 0 15px 20px -5px #0d718226;
   --shadow-logo: 0 0 35px 0 rgba(0, 0, 0, 0.0453);
+
+  --background-image-header-mobile: url("./assets/images/bg-header-mobile.svg");
+  --background-image-header-desktop: url("./assets/images/bg-header-desktop.svg");
 }
 
 @utility preset-1 {
