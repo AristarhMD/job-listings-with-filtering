@@ -12,6 +12,7 @@
   --color-green-50: #effafa;
 
   --shadow-card: 0 15px 20px -5px #0d718226;
+  --shadow-logo: 0 0 35px 0 rgba(0, 0, 0, 0.0453);
 }
 
 @utility preset-1 {
@@ -46,7 +47,7 @@
 
 /* Card */
 .card {
-  @apply bg-white rounded-[5px] shadow-card;
+  @apply bg-white rounded-[5px] shadow-card px-5 pb-3 xl:px-10 xl:py-8 w-[87.2%] md:w-full xl:w-278;
 }
 
 .card-featured {
@@ -55,7 +56,7 @@
 
 /* Card Components */
 .company-logo {
-  @apply -mt-6 xl:mt-0;
+  @apply size-12 xl:size-22 rounded-full -mt-6 xl:mt-0 shadow-logo;
 }
 
 .company {

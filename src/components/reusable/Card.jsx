@@ -1,7 +1,12 @@
+import TagButton from "./TagButton";
+
 export default function Card({ data }) {
   return (
-    <aside className="card">
-      <div className="flex flex-col gap-4">
+    <aside
+      className={`card ${data.badge.includes("featured") ? "card-featured" : ""}`}
+    >
+      <div className="flex flex-col xl:flex-row xl:items-center gap-4">
+        <img src={data.iconSvg} alt="" className="company-logo" />
         <div className="flex flex-col gap-2">
           <div className="flex items-center justify-start gap-4">
             <p className="company">{data.companyName}</p>
@@ -17,17 +22,23 @@ export default function Card({ data }) {
           </div>
           <p className="function">{data.function}</p>
           <div className="flex items-center gap-2">
-            <p className="work-info">{data.posted}</p>
-            <span className="size-1 rounded-full bg-gray-300"></span>
-            <p className="work-info">{data.typeOfWork}</p>
-            <span className="size-1 rounded-full bg-gray-300"></span>
-            <p className="work-info">{data.location}</p>
+            {data.jobInfo.map((description, idx, arr) => {
+              if (idx === arr.length - 1) {
+                return <p className="work-info">{description}</p>;
+              }
+              return (
+                <>
+                  <p className="work-info">{description}</p>
+                  <span className="size-1 rounded-full bg-gray-300"></span>
+                </>
+              );
+            })}
           </div>
         </div>
-        <hr />
+        <hr className="border-gray-300 xl:hidden" />
         <div className="flex gap-2 flex-wrap">
           {data.tags.map((tag) => (
-            <span className="tag-btn">{tag}</span>
+            <TagButton style="tag-btn">{tag}</TagButton>
           ))}
         </div>
       </div>
