@@ -1,7 +1,7 @@
 const data = [
   {
     id: "1c",
-    iconSvg: "src/assets/images/logos/photosnap.svg",
+    iconSvg: "./logos/photosnap.svg",
     companyName: "Photosnap",
     badge: ["new!", "featured"],
     function: "Senior Frontend Developer",
@@ -10,7 +10,7 @@ const data = [
   },
   {
     id: "2c",
-    iconSvg: "src/assets/images/logos/manage.svg",
+    iconSvg: "./logos/manage.svg",
     companyName: "Manage",
     badge: ["new!", "featured"],
     function: "Fullstack Developer",
@@ -19,7 +19,7 @@ const data = [
   },
   {
     id: "3c",
-    iconSvg: "src/assets/images/logos/account.svg",
+    iconSvg: "./logos/account.svg",
     companyName: "Account",
     badge: ["new!"],
     function: "Junior Frontend Developer",
@@ -28,7 +28,7 @@ const data = [
   },
   {
     id: "4c",
-    iconSvg: "src/assets/images/logos/myhome.svg",
+    iconSvg: "./logos/myhome.svg",
     companyName: "MyHome",
     badge: [],
     function: "Junior Frontend Developer",
@@ -37,7 +37,7 @@ const data = [
   },
   {
     id: "5c",
-    iconSvg: "src/assets/images/logos/loop-studios.svg",
+    iconSvg: "./logos/loop-studios.svg",
     companyName: "Loop Studios",
     badge: [],
     function: "Software Engineer",
@@ -46,7 +46,7 @@ const data = [
   },
   {
     id: "6c",
-    iconSvg: "src/assets/images/logos/faceit.svg",
+    iconSvg: "./logos/faceit.svg",
     companyName: "FaceIt",
     badge: [],
     function: "Junior Backend Developer",
@@ -55,7 +55,7 @@ const data = [
   },
   {
     id: "7c",
-    iconSvg: "src/assets/images/logos/shortly.svg",
+    iconSvg: "./logos/shortly.svg",
     companyName: "Shortly",
     badge: [],
     function: "Junior Developer",
@@ -64,7 +64,7 @@ const data = [
   },
   {
     id: "8c",
-    iconSvg: "src/assets/images/logos/insure.svg",
+    iconSvg: "./logos/insure.svg",
     companyName: "Insure",
     badge: [],
     function: "Junior Frontend Developer",
@@ -73,7 +73,7 @@ const data = [
   },
   {
     id: "9c",
-    iconSvg: "src/assets/images/logos/eyecam-co.svg",
+    iconSvg: "./logos/eyecam-co.svg",
     companyName: "Eyecam Co.",
     badge: [],
     function: "Full Stack Engineer",
@@ -82,7 +82,7 @@ const data = [
   },
   {
     id: "10c",
-    iconSvg: "src/assets/images/logos/the-air-filter-company.svg",
+    iconSvg: "./logos/the-air-filter-company.svg",
     companyName: "The Air Filter Company",
     badge: [],
     function: "Front-end Dev",

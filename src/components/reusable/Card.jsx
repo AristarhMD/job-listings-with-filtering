@@ -39,7 +39,7 @@ export default function Card({ data, filteredTags, setFilteredJob }) {
           </div>
         </div>
         <hr className="border-gray-300 xl:hidden" />
-        <div className="flex gap-2 flex-wrap">
+        <div className="flex gap-2 flex-wrap xl:flex-nowrap xl:ml-auto">
           {data.tags.map((tag, idx) => (
             <TagButton
               key={`${idx}tag`}
