@@ -41,7 +41,10 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./design/mobile-design.jpg)
+![](./design/mobile-with-filters.jpg)
+![](./design/desktop-design.jpg)
+![](./design/active-states.jpg)
 
 ### Links
 
