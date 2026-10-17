@@ -10,7 +10,10 @@ export default function Filter({ filteredTags, setFilteredJob }) {
         {filteredTags.map((tag, idx) => (
           <p key={idx} className="filter-tag-btn">
             {tag}
-            <button onClick={() => handleRemovingTag(tag)}>
+            <button
+              onClick={() => handleRemovingTag(tag)}
+              aria-label="Remove Frontend filter"
+            >
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14">
                 <path
                   fill="#FFF"

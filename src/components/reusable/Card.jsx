@@ -7,7 +7,11 @@ export default function Card({ data, filteredTags, setFilteredJob }) {
       className={`card ${data.badge.includes("featured") ? "card-featured" : ""}`}
     >
       <div className="flex flex-col xl:flex-row xl:items-center gap-4">
-        <img src={data.iconSvg} alt="" className="company-logo" />
+        <img
+          src={data.iconSvg}
+          alt={`Logo of the ${data.companyName} company`}
+          className="company-logo"
+        />
         <div className="flex flex-col gap-2">
           <div className="flex items-center justify-start gap-4">
             <p className="company">{data.companyName}</p>
