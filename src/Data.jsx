@@ -1,5 +1,6 @@
 const data = [
   {
+    id: "1c",
     iconSvg: "src/assets/images/logos/photosnap.svg",
     companyName: "Photosnap",
     badge: ["new!", "featured"],
@@ -8,14 +9,16 @@ const data = [
     tags: ["Frontend", "Senior", "HTML", "CSS", "JavaScript"],
   },
   {
+    id: "2c",
     iconSvg: "src/assets/images/logos/manage.svg",
     companyName: "Manage",
     badge: ["new!", "featured"],
     function: "Fullstack Developer",
     jobInfo: ["1d ago", "Part Time", "Remote"],
-    tags: ["Fullstack", "Midweight", "Phyton", "React"],
+    tags: ["Fullstack", "Midweight", "Python", "React"],
   },
   {
+    id: "3c",
     iconSvg: "src/assets/images/logos/account.svg",
     companyName: "Account",
     badge: ["new!"],
@@ -24,6 +27,7 @@ const data = [
     tags: ["Frontend", "Junior", "React", "Sass", "JavaScript"],
   },
   {
+    id: "4c",
     iconSvg: "src/assets/images/logos/myhome.svg",
     companyName: "MyHome",
     badge: [],
@@ -32,6 +36,7 @@ const data = [
     tags: ["Frontend", "Junior", "CSS", "JavaScript"],
   },
   {
+    id: "5c",
     iconSvg: "src/assets/images/logos/loop-studios.svg",
     companyName: "Loop Studios",
     badge: [],
@@ -40,6 +45,7 @@ const data = [
     tags: ["Fullstack", "Midweight", "JavaScript", "Sass", "Ruby"],
   },
   {
+    id: "6c",
     iconSvg: "src/assets/images/logos/faceit.svg",
     companyName: "FaceIt",
     badge: [],
@@ -48,6 +54,7 @@ const data = [
     tags: ["Backend", "Junior", "Ruby", "RoR"],
   },
   {
+    id: "7c",
     iconSvg: "src/assets/images/logos/shortly.svg",
     companyName: "Shortly",
     badge: [],
@@ -56,6 +63,7 @@ const data = [
     tags: ["Frontend", "Junior", "HTML", "Sass", "JavaScript"],
   },
   {
+    id: "8c",
     iconSvg: "src/assets/images/logos/insure.svg",
     companyName: "Insure",
     badge: [],
@@ -64,6 +72,7 @@ const data = [
     tags: ["Frontend", "Junior", "Vue", "JavaScript", "Sass"],
   },
   {
+    id: "9c",
     iconSvg: "src/assets/images/logos/eyecam-co.svg",
     companyName: "Eyecam Co.",
     badge: [],
@@ -72,6 +81,7 @@ const data = [
     tags: ["Fullstack", "Midweight", "JavaScript", "Django", "Python"],
   },
   {
+    id: "10c",
     iconSvg: "src/assets/images/logos/the-air-filter-company.svg",
     companyName: "The Air Filter Company",
     badge: [],
